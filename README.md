@@ -211,4 +211,36 @@
         });
     }
 
-})();
+})();{
+  "sources": [
+    {
+      "name": "LNUM (Каталог)",
+      "type": "catalog",
+      "url": "line%3Dbase%26id%3Dlnum%26page%3D1",
+      "component": "category",
+      "description": "Популярний каталог фільмів та серіалів"
+    },
+    {
+      "name": "Толока (Торент)",
+      "type": "torrent",
+      "url": "line%3Dtorrent%26id%3Dtoloka%26page%3D1",
+      "component": "category",
+      "description": "Пошук торентів на Toloka"
+    },
+    {
+      "name": "UAKino",
+      "type": "online",
+      "url": "line%3Donline%26id%3Duakino%26page%3D1",
+      "component": "category",
+      "description": "Український онлайн-кінотеатр"
+    },
+    {
+      "name": "HDRezka",
+      "type": "online",
+      "url": "line%3Donline%26id%3Dhdrezka%26page%3D1",
+      "component": "category",
+      "description": "Популярний онлайн-кінотеатр з великим вибором"
+    }
+    // Додавайте сюди інші джерела
+  ]
+}
